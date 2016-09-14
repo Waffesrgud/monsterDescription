@@ -29,6 +29,33 @@ public class MarshmallowMonster
 		this.tailCount = 3;
 		this.noseCount = 4;
 	}
+	public String toString()
+	{
+		String description = "Name is" + this.name;
+		
+		return description;
+	}
+
+	public double getAnntennaCount()
+	{
+		return antennaCount;
+	}
+	public boolean getBellyButton()
+	{
+		return hasBellyButton;
+	}
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
+	public int getTailCount()
+	{
+		return tailCount;
+	}
+	public int getNoseCount()
+	{
+		return noseCount;
+	}
 }
 
 //* The Basking Suffer as named by the tribes that hunted it, has half an antennae, and 3 eyes.
