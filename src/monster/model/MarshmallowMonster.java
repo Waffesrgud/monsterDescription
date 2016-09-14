@@ -31,7 +31,7 @@ public class MarshmallowMonster
 	}
 	public String toString()
 	{
-		String description = "Name is" + this.name;
+		String description = "Name is " + this.name;
 		
 		return description;
 	}
