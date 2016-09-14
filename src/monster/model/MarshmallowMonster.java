@@ -36,7 +36,7 @@ public class MarshmallowMonster
 		return description;
 	}
 
-	public double getAnntennaCount()
+	public double getAntennaCount()
 	{
 		return antennaCount;
 	}
