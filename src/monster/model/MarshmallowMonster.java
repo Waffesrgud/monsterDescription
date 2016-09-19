@@ -9,7 +9,7 @@ public class MarshmallowMonster
 	private int tailCount;
 	//Used tails instead of arms, since it was aquatic. :c
 	private int noseCount;
-
+	private int opponentPlay;
 	public MarshmallowMonster()
 	{
 		this.name = "NAMELESS";
