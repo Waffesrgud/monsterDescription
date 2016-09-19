@@ -51,7 +51,7 @@ public class MonsterController
 //		}
 		System.out.println("Rock, paper, or scissors?");
 		String playTyped = keyboardInput.nextLine();
-		String play = playTyped.toUpperCase();	
+		String play = playTyped.toUpperCase();
 	}
 }
 
