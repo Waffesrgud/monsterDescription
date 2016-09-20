@@ -17,39 +17,60 @@ public class MonsterController
 //*It has a belly button in the shape of a heart, 3 tails instead of arms, and 4 noses.
 	public void start()
 	{
-			System.out.println("Here is my monster: " + firstMonster);
-			
-		System.out.println("It's a really good name, huh? I thought of it myself!");
-		String answer = keyboardInput.nextLine();
+//		System.out.println("Here is my monster: " + firstMonster);
+//			
+//		System.out.println("It's a really good name, huh? I thought of it myself!");
+//		String answer = keyboardInput.nextLine();
+//		
+//		if (answer.equalsIgnoreCase("no"))
+//		{
+//		System.out.println("My name isn't good enough for you...? Then what would be better?");
+//		String rename = keyboardInput.nextLine();
+//		String newName = rename.toUpperCase();
+//		System.out.println("Really? You think " + newName + " is so much better?");
+//		firstMonster.setName(newName);
+//		} else {
+//			System.out.println("That's right! It's fantastic.");
+//		}
+//		System.out.println("Okay, the " + firstMonster);
+//		
+//		System.out.println("It has this many eyes: " + firstMonster.getEyeCount());
+//		if(firstMonster.getEyeCount() >= 3) {
+//			System.out.println("I wonder why they need so many eyes...?");
+//		}
+//		System.out.println("The statement that it has a bellybutton would be " + firstMonster.getBellyButton());
+//		System.out.println("It has this many antennae: " + firstMonster.getAntennaCount());
+//		System.out.println("It has this many tails: " + firstMonster.getTailCount());
+// 		if(firstMonster.getTailCount() > 1) {
+//			System.out.println("Oh, it has multiple tails? That's interesting, what do they use them for?");
+//		} else if(firstMonster.getTailCount() == 1) {
+//			System.out.println("Oh, a tail. That's cool.");		}
+//			System.out.println("It has this many noses: " + firstMonster.getNoseCount());
+//		if(firstMonster.getNoseCount() > 1) {
+//			System.out.println("With that many noses, I bet it can smell us right now!");
+//			
+		beanedMoron();
+	}
 		
-		if (answer.equalsIgnoreCase("no"))
+	private void beanedMoron()
+	{
+		int whileCount = 0;
+		while(whileCount <= 20)
 		{
-		System.out.println("My name isn't good enough for you...? Then what would be better?");
-		String rename = keyboardInput.nextLine();
-		String newName = rename.toUpperCase();
-		System.out.println("Really? You think " + newName + " is so much better?");
-		firstMonster.setName(newName);
-		} else {
-			System.out.println("That's right! It's fantastic.");
+			System.out.println("Green beans? I think yes!");
+			whileCount++;
 		}
-		System.out.println("Okay, the " + firstMonster);
-		
-		System.out.println("It has this many eyes: " + firstMonster.getEyeCount());
-		if(firstMonster.getEyeCount() >= 3) {
-			System.out.println("I wonder why they need so many eyes...?");
+		for(int forCount = 10;forCount >=0;forCount--)
+		{
+			System.out.println("T-" + forCount);
 		}
-		System.out.println("The statement that it has a bellybutton would be " + firstMonster.getBellyButton());
-		System.out.println("It has this many antennae: " + firstMonster.getAntennaCount());
-		System.out.println("It has this many tails: " + firstMonster.getTailCount());
- 		if(firstMonster.getTailCount() > 1) {
-			System.out.println("Oh, it has multiple tails? That's interesting, what do they use them for?");
-		} else if(firstMonster.getTailCount() == 1) {
-			System.out.println("Oh, a tail. That's cool.");		}
-			System.out.println("It has this many noses: " + firstMonster.getNoseCount());
-		if(firstMonster.getNoseCount() > 1) {
-			System.out.println("With that many noses, I bet it can smell us right now!");		
+		System.out.println("BLASTOFF!");
+		for(int forCount2 = 0;forCount2 <= 10;forCount2++)
+		{
+			System.out.println("Shuttle at " + forCount2 + " kilometer(s).");
 		}
 	}
 }
+
 
 //Winning!//
